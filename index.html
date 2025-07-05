@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIs</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-[100vh] flex flex-col items-center justify-center w-full">
+    <h1 class="text-3xl my-16 text-slate-600">Countries Flag | API</h1>
+    <div class="flex items-center justify-center gap-10">
+        <input type="text" id="input_text" placeholder="Enter a country name..." class="border border-blue-400 rounded-xl px-6 py-2 outline-none placeholder:text-blue-500">
+
+        <button class="bg-slate-600 text-white px-4 py-2 rounded-lg cursor-pointer hover:bg-slate-500" id="get_flagBtn">Get Flag</button>
+    </div>
+    
+    <div class="my-6 h-[200px] w-[200px] image_container">
+        
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
