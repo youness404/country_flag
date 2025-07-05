@@ -2,7 +2,7 @@
 
 A responsive web application that displays country flags using the API-Ninjas service. Users can search for any country by name to view its national flag.
 
-![App Screenshot ](/home/youness-horra/Pictures/Screenshots/country_flag.png/600*400)
+![App Screenshot ](/country_flag.png)
 
 ## Features ✨
 
