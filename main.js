@@ -34,7 +34,7 @@ async function fetchCountryFlag(country) {
         const response = await fetch(`https://api.api-ninjas.com/v1/countryflag?country=${country.code}`,{
             method : 'GET',
             headers : {
-                'X-Api-Key': 'CGiPIIxMhkPodmZh4PQveg==OMqP4AwOlIvRwRqZ'
+                'X-Api-Key': 'Your Api Key'
             }
         });
         const data = await response.json();
